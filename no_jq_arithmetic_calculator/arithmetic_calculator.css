@@ -1,0 +1,41 @@
+main {
+  width: 400px;
+  text-align: center;
+  margin: 200px auto;
+  background-color: white;
+  padding: 50px;
+}
+
+body {
+  background-color: red;
+  font-family: Arial;
+}
+
+input {
+  height: 30px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="number"] {
+  width: 60px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+select {
+  vertical-align: middle;
+  height: 30px;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+h1 {
+  color: gray;
+}
