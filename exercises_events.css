@@ -1,0 +1,25 @@
+main {
+  width: 400px;
+  text-align: center;
+  margin: 200px auto;
+  background-color: white;
+  padding: 50px;
+}
+
+body {
+  background-color: red;
+}
+
+input {
+  height: 30px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  width: 30px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: top;
+}
