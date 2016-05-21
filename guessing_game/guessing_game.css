@@ -1,0 +1,35 @@
+main {
+  width: 400px;
+  text-align: center;
+  margin: 200px auto;
+  background-color: white;
+  padding: 50px;
+}
+
+body {
+  background-color: red;
+  font-family: Arial;
+}
+
+input {
+  height: 30px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  width: 60px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+p {
+  color: gray;
+}
