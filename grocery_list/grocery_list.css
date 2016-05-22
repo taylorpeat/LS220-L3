@@ -1,0 +1,67 @@
+main {
+  width: 400px;
+  text-align: center;
+  margin: 200px auto;
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  border: 2px solid;
+}
+
+body {
+  background-color: red;
+  font-family: Arial;
+}
+
+input {
+  height: 30px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 150px;
+}
+
+input[type="number"] {
+  width: 60px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+label:nth-child(2) {
+  margin-left: 69px;
+}
+
+select {
+  vertical-align: middle;
+  height: 30px;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+  margin-left: 24px;
+  vertical-align: middle;
+}
+
+h1 {
+  color: gray;
+}
+
+label {
+  display: block;
+  margin: 0 auto 20px auto;
+  text-align: left;
+  width: 300px;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+
+}
+
+li + li {
+  border-top: solid 1px gray;
+}
