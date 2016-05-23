@@ -1,0 +1,75 @@
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+
+body {
+  background-color: #141414;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+div.column {
+  display: inline-block;
+  min-width: 640px;
+  max-width: 1040px;
+  background-color: #333;
+  margin: 0 40px 35px 40px;
+}
+
+main {
+  padding: 0 20px 0 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+figure {
+  text-align: left;
+  width: 100%;
+}
+
+figure + figure {
+  display: none;
+}
+
+img {
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+figcaption {
+  margin: 10px 0 32px 0;
+}
+
+nav {
+  padding: 0 5px 20px 5px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 15px;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+
+nav img {
+  padding: 3px;
+  vertical-align: middle;
+}
+
+nav a {
+  display: inline-block;
+  line-height: inherit;
+
+}
+
+nav img.selected {
+  background-color: #00008B;
+}
